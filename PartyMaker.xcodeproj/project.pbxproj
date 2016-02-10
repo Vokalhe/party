@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8338A8F61C649A96005B3A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A8F51C649A96005B3A04 /* main.m */; };
+		8338A8F91C649A96005B3A04 /* EVAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A8F81C649A96005B3A04 /* EVAAppDelegate.m */; };
+		8338A8FC1C649A96005B3A04 /* EVAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A8FB1C649A96005B3A04 /* EVAViewController.m */; };
+		8338A8FF1C649A96005B3A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8338A8FD1C649A96005B3A04 /* Main.storyboard */; };
+		8338A9011C649A96005B3A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8338A9001C649A96005B3A04 /* Assets.xcassets */; };
+		8338A9041C649A96005B3A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8338A9021C649A96005B3A04 /* LaunchScreen.storyboard */; };
+		8338A90F1C649A96005B3A04 /* PartyMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A90E1C649A96005B3A04 /* PartyMakerTests.m */; };
+		8338A91A1C649A96005B3A04 /* PartyMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A9191C649A96005B3A04 /* PartyMakerUITests.m */; };
+		8338A9291C649BCC005B3A04 /* EVAVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338A9281C649BCC005B3A04 /* EVAVCViewController.m */; };
+		8344430A1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443081C69EFD400E73D02 /* MyriadProBold.ttf */; };
+		8344430B1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443081C69EFD400E73D02 /* MyriadProBold.ttf */; };
+		8344430C1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443081C69EFD400E73D02 /* MyriadProBold.ttf */; };
+		8344430D1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443091C69EFD400E73D02 /* MyriadProRegular.ttf */; };
+		8344430E1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443091C69EFD400E73D02 /* MyriadProRegular.ttf */; };
+		8344430F1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834443091C69EFD400E73D02 /* MyriadProRegular.ttf */; };
+		834443111C6A3A1400E73D02 /* party.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834443101C6A3A1400E73D02 /* party.plist */; };
+		834443121C6A3A1400E73D02 /* party.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834443101C6A3A1400E73D02 /* party.plist */; };
+		834443131C6A3A1400E73D02 /* party.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834443101C6A3A1400E73D02 /* party.plist */; };
+		834443161C6A3A3000E73D02 /* EVAParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 834443151C6A3A3000E73D02 /* EVAParty.m */; };
+		834443171C6A3A3000E73D02 /* EVAParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 834443151C6A3A3000E73D02 /* EVAParty.m */; };
+		834443181C6A3A3000E73D02 /* EVAParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 834443151C6A3A3000E73D02 /* EVAParty.m */; };
+		84DF1DD31C69685D00EE004D /* NSString+TimeOfSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF1DD21C69685D00EE004D /* NSString+TimeOfSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8338A90B1C649A96005B3A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8338A8E91C649A96005B3A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8338A8F01C649A96005B3A04;
+			remoteInfo = PartyMaker;
+		};
+		8338A9161C649A96005B3A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8338A8E91C649A96005B3A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8338A8F01C649A96005B3A04;
+			remoteInfo = PartyMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8338A8F11C649A96005B3A04 /* PartyMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8338A8F51C649A96005B3A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8338A8F71C649A96005B3A04 /* EVAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAAppDelegate.h; sourceTree = "<group>"; };
+		8338A8F81C649A96005B3A04 /* EVAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAAppDelegate.m; sourceTree = "<group>"; };
+		8338A8FA1C649A96005B3A04 /* EVAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAViewController.h; sourceTree = "<group>"; };
+		8338A8FB1C649A96005B3A04 /* EVAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAViewController.m; sourceTree = "<group>"; };
+		8338A8FE1C649A96005B3A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8338A9001C649A96005B3A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8338A9031C649A96005B3A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8338A9051C649A96005B3A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8338A90A1C649A96005B3A04 /* PartyMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8338A90E1C649A96005B3A04 /* PartyMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyMakerTests.m; sourceTree = "<group>"; };
+		8338A9101C649A96005B3A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8338A9151C649A96005B3A04 /* PartyMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8338A9191C649A96005B3A04 /* PartyMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyMakerUITests.m; sourceTree = "<group>"; };
+		8338A91B1C649A96005B3A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8338A9271C649BCC005B3A04 /* EVAVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAVCViewController.h; sourceTree = "<group>"; };
+		8338A9281C649BCC005B3A04 /* EVAVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAVCViewController.m; sourceTree = "<group>"; };
+		834443081C69EFD400E73D02 /* MyriadProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProBold.ttf; sourceTree = "<group>"; };
+		834443091C69EFD400E73D02 /* MyriadProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProRegular.ttf; sourceTree = "<group>"; };
+		834443101C6A3A1400E73D02 /* party.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = party.plist; sourceTree = "<group>"; };
+		834443141C6A3A3000E73D02 /* EVAParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAParty.h; sourceTree = "<group>"; };
+		834443151C6A3A3000E73D02 /* EVAParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAParty.m; sourceTree = "<group>"; };
+		84DF1DD11C69685D00EE004D /* NSString+TimeOfSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeOfSlider.h"; sourceTree = "<group>"; };
+		84DF1DD21C69685D00EE004D /* NSString+TimeOfSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeOfSlider.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8338A8EE1C649A96005B3A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9071C649A96005B3A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9121C649A96005B3A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8338A8E81C649A96005B3A04 = {
+			isa = PBXGroup;
+			children = (
+				8338A8F31C649A96005B3A04 /* PartyMaker */,
+				8338A90D1C649A96005B3A04 /* PartyMakerTests */,
+				8338A9181C649A96005B3A04 /* PartyMakerUITests */,
+				8338A8F21C649A96005B3A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8338A8F21C649A96005B3A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8338A8F11C649A96005B3A04 /* PartyMaker.app */,
+				8338A90A1C649A96005B3A04 /* PartyMakerTests.xctest */,
+				8338A9151C649A96005B3A04 /* PartyMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8338A8F31C649A96005B3A04 /* PartyMaker */ = {
+			isa = PBXGroup;
+			children = (
+				834443081C69EFD400E73D02 /* MyriadProBold.ttf */,
+				834443091C69EFD400E73D02 /* MyriadProRegular.ttf */,
+				8338A9271C649BCC005B3A04 /* EVAVCViewController.h */,
+				8338A9281C649BCC005B3A04 /* EVAVCViewController.m */,
+				8338A8FA1C649A96005B3A04 /* EVAViewController.h */,
+				8338A8FB1C649A96005B3A04 /* EVAViewController.m */,
+				8338A8F71C649A96005B3A04 /* EVAAppDelegate.h */,
+				8338A8F81C649A96005B3A04 /* EVAAppDelegate.m */,
+				8338A8FD1C649A96005B3A04 /* Main.storyboard */,
+				8338A9001C649A96005B3A04 /* Assets.xcassets */,
+				8338A9021C649A96005B3A04 /* LaunchScreen.storyboard */,
+				8338A9051C649A96005B3A04 /* Info.plist */,
+				84DF1DD11C69685D00EE004D /* NSString+TimeOfSlider.h */,
+				84DF1DD21C69685D00EE004D /* NSString+TimeOfSlider.m */,
+				834443101C6A3A1400E73D02 /* party.plist */,
+				834443141C6A3A3000E73D02 /* EVAParty.h */,
+				834443151C6A3A3000E73D02 /* EVAParty.m */,
+				8338A8F41C649A96005B3A04 /* Supporting Files */,
+			);
+			path = PartyMaker;
+			sourceTree = "<group>";
+		};
+		8338A8F41C649A96005B3A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8338A8F51C649A96005B3A04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8338A90D1C649A96005B3A04 /* PartyMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8338A90E1C649A96005B3A04 /* PartyMakerTests.m */,
+				8338A9101C649A96005B3A04 /* Info.plist */,
+			);
+			path = PartyMakerTests;
+			sourceTree = "<group>";
+		};
+		8338A9181C649A96005B3A04 /* PartyMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8338A9191C649A96005B3A04 /* PartyMakerUITests.m */,
+				8338A91B1C649A96005B3A04 /* Info.plist */,
+			);
+			path = PartyMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8338A8F01C649A96005B3A04 /* PartyMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8338A91E1C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMaker" */;
+			buildPhases = (
+				8338A8ED1C649A96005B3A04 /* Sources */,
+				8338A8EE1C649A96005B3A04 /* Frameworks */,
+				8338A8EF1C649A96005B3A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartyMaker;
+			productName = PartyMaker;
+			productReference = 8338A8F11C649A96005B3A04 /* PartyMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8338A9091C649A96005B3A04 /* PartyMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8338A9211C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMakerTests" */;
+			buildPhases = (
+				8338A9061C649A96005B3A04 /* Sources */,
+				8338A9071C649A96005B3A04 /* Frameworks */,
+				8338A9081C649A96005B3A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8338A90C1C649A96005B3A04 /* PBXTargetDependency */,
+			);
+			name = PartyMakerTests;
+			productName = PartyMakerTests;
+			productReference = 8338A90A1C649A96005B3A04 /* PartyMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8338A9141C649A96005B3A04 /* PartyMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8338A9241C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMakerUITests" */;
+			buildPhases = (
+				8338A9111C649A96005B3A04 /* Sources */,
+				8338A9121C649A96005B3A04 /* Frameworks */,
+				8338A9131C649A96005B3A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8338A9171C649A96005B3A04 /* PBXTargetDependency */,
+			);
+			name = PartyMakerUITests;
+			productName = PartyMakerUITests;
+			productReference = 8338A9151C649A96005B3A04 /* PartyMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8338A8E91C649A96005B3A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					8338A8F01C649A96005B3A04 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8338A9091C649A96005B3A04 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8338A8F01C649A96005B3A04;
+					};
+					8338A9141C649A96005B3A04 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8338A8F01C649A96005B3A04;
+					};
+				};
+			};
+			buildConfigurationList = 8338A8EC1C649A96005B3A04 /* Build configuration list for PBXProject "PartyMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8338A8E81C649A96005B3A04;
+			productRefGroup = 8338A8F21C649A96005B3A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8338A8F01C649A96005B3A04 /* PartyMaker */,
+				8338A9091C649A96005B3A04 /* PartyMakerTests */,
+				8338A9141C649A96005B3A04 /* PartyMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8338A8EF1C649A96005B3A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338A9041C649A96005B3A04 /* LaunchScreen.storyboard in Resources */,
+				834443111C6A3A1400E73D02 /* party.plist in Resources */,
+				8344430A1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */,
+				8338A9011C649A96005B3A04 /* Assets.xcassets in Resources */,
+				8338A8FF1C649A96005B3A04 /* Main.storyboard in Resources */,
+				8344430D1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9081C649A96005B3A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8344430B1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */,
+				834443121C6A3A1400E73D02 /* party.plist in Resources */,
+				8344430E1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9131C649A96005B3A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8344430C1C69EFD400E73D02 /* MyriadProBold.ttf in Resources */,
+				834443131C6A3A1400E73D02 /* party.plist in Resources */,
+				8344430F1C69EFD400E73D02 /* MyriadProRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8338A8ED1C649A96005B3A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF1DD31C69685D00EE004D /* NSString+TimeOfSlider.m in Sources */,
+				834443161C6A3A3000E73D02 /* EVAParty.m in Sources */,
+				8338A8FC1C649A96005B3A04 /* EVAViewController.m in Sources */,
+				8338A9291C649BCC005B3A04 /* EVAVCViewController.m in Sources */,
+				8338A8F91C649A96005B3A04 /* EVAAppDelegate.m in Sources */,
+				8338A8F61C649A96005B3A04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9061C649A96005B3A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338A90F1C649A96005B3A04 /* PartyMakerTests.m in Sources */,
+				834443171C6A3A3000E73D02 /* EVAParty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338A9111C649A96005B3A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338A91A1C649A96005B3A04 /* PartyMakerUITests.m in Sources */,
+				834443181C6A3A3000E73D02 /* EVAParty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8338A90C1C649A96005B3A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8338A8F01C649A96005B3A04 /* PartyMaker */;
+			targetProxy = 8338A90B1C649A96005B3A04 /* PBXContainerItemProxy */;
+		};
+		8338A9171C649A96005B3A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8338A8F01C649A96005B3A04 /* PartyMaker */;
+			targetProxy = 8338A9161C649A96005B3A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8338A8FD1C649A96005B3A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8338A8FE1C649A96005B3A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8338A9021C649A96005B3A04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8338A9031C649A96005B3A04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8338A91C1C649A96005B3A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8338A91D1C649A96005B3A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8338A91F1C649A96005B3A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PartyMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8338A9201C649A96005B3A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PartyMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8338A9221C649A96005B3A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PartyMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PartyMaker.app/PartyMaker";
+			};
+			name = Debug;
+		};
+		8338A9231C649A96005B3A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PartyMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PartyMaker.app/PartyMaker";
+			};
+			name = Release;
+		};
+		8338A9251C649A96005B3A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PartyMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PartyMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8338A9261C649A96005B3A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PartyMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.PartyMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PartyMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8338A8EC1C649A96005B3A04 /* Build configuration list for PBXProject "PartyMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8338A91C1C649A96005B3A04 /* Debug */,
+				8338A91D1C649A96005B3A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8338A91E1C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8338A91F1C649A96005B3A04 /* Debug */,
+				8338A9201C649A96005B3A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8338A9211C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8338A9221C649A96005B3A04 /* Debug */,
+				8338A9231C649A96005B3A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8338A9241C649A96005B3A04 /* Build configuration list for PBXNativeTarget "PartyMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8338A9251C649A96005B3A04 /* Debug */,
+				8338A9261C649A96005B3A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8338A8E91C649A96005B3A04 /* Project object */;
+}
