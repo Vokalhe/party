@@ -452,7 +452,7 @@
         [self presentViewController:alert animated:YES completion:nil];
     }
     else {
-        //NSString *image = [[NSString alloc] initWithFormat:@"%ld",(long)self.pageControl.currentPage];
+
         [self.navigationController popToRootViewControllerAnimated:YES];
         EVAParty* newParty = [[EVAParty alloc]initWithName: (NSString*) self.yourPartyName date: (NSString*) self.datePicker timeStart: (NSString*) self.labelTimeStart timeEnd: (NSString*) self.labelTimeEnd description: (NSString*) self.textDescription image: (NSString*) self.pageControl];
 
