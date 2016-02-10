@@ -12,7 +12,7 @@
 @class UIButton;
 
 @interface EVAVCViewController () <UITextFieldDelegate, UIScrollViewDelegate, UITextViewDelegate, UIAlertViewDelegate>
-//@property(strong, nonatomic) UIView *cursorView;
+
 
 @property (nonatomic) UIButton *buttonChooseDate;
 @property (nonatomic) UITextField* yourPartyName;
